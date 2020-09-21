@@ -1,0 +1,11 @@
+version: "3.2"
+
+services:
+  iris:
+    build: .
+    container_name: my-iris
+    volumes:
+     - ./:/iris/app
+    ports:
+     - 9092:52773
+     - 9091:51773
