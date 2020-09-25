@@ -1,0 +1,7 @@
+{
+    "objectscript.conn": {
+        "server": "test",
+        "ns": "EXAMPLE",
+        "active": true
+    }
+}
